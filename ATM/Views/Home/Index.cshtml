@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+
+    <div class="col-md-6" style="margin-top:20px">
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-circle-arrow-down"> Withdrawal </span></a><br>
+        <a href="@Url.Action("CheckingAccountId","100")" class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-flash"> Quick Cash $100 </span></a><br>
+        <a href="@Url.Action("Details","CheckingAccounts")" class="btn btn-danger btn-lg btn-block"><span class="glyphicon glyphicon-question-sign"> Balance Inquiry </span></a><br>
+    </div>
+    <div class="col-md-6"style="margin-top:20px">
+        <a href="#" class="btn btn-info btn-lg btn-block"><span class="glyphicon glyphicon-print"> Print Statement </span></a><br>
+        <a href="#" class="btn btn-warning btn-lg btn-block"><span class="glyphicon glyphicon-transfer"> Transfer Funds </span></a><br>
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-circle-arrow-up"> Deposit</span></a><br>
+    </div>
+
+</div>
